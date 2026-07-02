@@ -261,7 +261,7 @@ export default function SeasonalSales() {
           {[
             { month: "1~2월", strategy: "FW 시즌 마지막 세일 → 최저가 기회", level: "🟢 추천" },
             { month: "4월", strategy: "봄 시즌오프 + 프라이빗 프로모션", level: "🟢 강력 추천" },
-            { month: "4~5월", strategy: "신상품 출시기 → 할인코드 활용", level: "🟡 보통" },
+            { month: "4~7월", strategy: "신상품 출시기 → 할인코드 활용", level: "🟡 보통" },
             { month: "6~7월", strategy: "SS 시즌 중반 → 할인코드 활용", level: "🟡 보통" },
             { month: "8월", strategy: "여름 시즌오프 → 대규모 세일", level: "🟢 강력 추천" },
             { month: "9~10월", strategy: "신상품 출시기 → 할인코드 활용", level: "🟡 보통" },

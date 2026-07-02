@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Head } from "vite-react-ssg";
 
 interface SchemaJsonLdProps {
   schema: Record<string, unknown> | Record<string, unknown>[];
@@ -6,8 +6,8 @@ interface SchemaJsonLdProps {
 
 export default function SchemaJsonLd({ schema }: SchemaJsonLdProps) {
   return (
-    <Helmet>
+    <Head>
       <script type="application/ld+json">{JSON.stringify(schema)}</script>
-    </Helmet>
+    </Head>
   );
 }

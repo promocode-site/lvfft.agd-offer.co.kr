@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Head } from "vite-react-ssg";
 
 interface PageMetaProps {
   title: string;
@@ -9,7 +9,7 @@ interface PageMetaProps {
 
 export default function PageMeta({ title, description, canonical, ogImage = "/og-image.jpg" }: PageMetaProps) {
   return (
-    <Helmet>
+    <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
@@ -24,6 +24,6 @@ export default function PageMeta({ title, description, canonical, ogImage = "/og
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
-    </Helmet>
+    </Head>
   );
 }

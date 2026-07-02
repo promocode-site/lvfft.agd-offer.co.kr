@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -11,7 +11,7 @@ const navItems = [
   { path: "/guide", label: "이용 가이드 & FAQ" },
 ];
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout() {
   const location = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -71,7 +71,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         )}
       </header>
 
-      <main className="flex-1">{children}</main>
+      <main className="flex-1"><Outlet /></main>
 
       <footer className="border-t border-border bg-card">
         <div className="max-w-6xl mx-auto px-4 py-10">

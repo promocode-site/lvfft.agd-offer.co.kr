@@ -17,22 +17,22 @@ const AFFILIATE_LINK = "http://app.ac/NjMZuMa23";
 
 const sales = [
   {
-    period: "4월 (현재)",
+    period: "4월",
     name: "봄 시즌오프 / 프라이빗 프로모션",
     discount: "최대 70%",
     img: saleSpring,
-    description: "봄 시즌오프와 함께 프라이빗 프로모션이 진행 중입니다. 여성, 남성, 키즈 패션 상품이 대상이며 수량 한정 선착순으로 인기 아이템은 조기 품절 가능합니다.",
+    description: "봄 시즌오프와 함께 프라이빗 프로모션이 진행됩니다. 여성, 남성, 키즈 패션 상품이 대상이며 수량 한정 선착순으로 인기 아이템은 조기 품절 가능합니다.",
     tips: ["Sale 카테고리에서 최대 20% 추가 할인 적용 아이템 확인", "정가 할인코드와 적용 대상이 다를 수 있으므로 가격 비교 필수", "인기 브랜드 아이템은 빠르게 소진되므로 조기 체크 권장"],
-    active: true,
+    active: false,
   },
   {
-    period: "8월",
+    period: "8월 (현재)",
     name: "여름 시즌오프 세일",
     discount: "최대 70%",
     img: saleSummer,
     description: "여름 시즌 종료와 함께 SS(Spring/Summer) 컬렉션 상품이 대폭 할인됩니다. 가을 시즌 전환 전 마지막 기회입니다.",
     tips: ["SS 컬렉션의 마지막 재고가 대폭 할인", "다음 시즌 활용 가능한 기본 아이템 위주로 쇼핑 추천", "인기 브랜드는 세일 시작 초기에 품절"],
-    active: false,
+    active: true,
   },
   {
     period: "11월 초",

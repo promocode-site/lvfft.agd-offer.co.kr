@@ -79,7 +79,7 @@ export default function DiscountCodes() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "파페치 할인코드 총정리",
-    description: "2026년 8월 기준 파페치에서 사용 가능한 모든 할인코드와 프로모션 코드 목록",
+    description: "2026년 9월 기준 파페치에서 사용 가능한 모든 할인코드와 프로모션 코드 목록",
     numberOfItems: coupons.length,
     itemListElement: coupons.map((c, i) => ({
       "@type": "ListItem",
@@ -114,7 +114,7 @@ export default function DiscountCodes() {
             <span className="gold-text">파페치 할인코드</span> 총정리
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl">
-            2026년 8월 기준, 파페치에서 사용할 수 있는 모든 할인코드의 상세 조건, 적용 방법, 유의사항을 한 곳에서 확인하세요.
+            2026년 9월 기준, 파페치에서 사용할 수 있는 모든 할인코드의 상세 조건, 적용 방법, 유의사항을 한 곳에서 확인하세요.
           </p>
         </div>
       </section>
@@ -146,7 +146,7 @@ export default function DiscountCodes() {
 
       {/* Coupon Cards */}
       <section className="page-container">
-        <h2 className="section-title gold-text">🎟️ 2026년 8월 할인코드 상세 정보</h2>
+        <h2 className="section-title gold-text">🎟️ 2026년 9월 할인코드 상세 정보</h2>
         <div className="grid grid-cols-2 gap-3 md:gap-6">
           {coupons.map((c) => (
             <CouponCard key={c.title} {...c} />

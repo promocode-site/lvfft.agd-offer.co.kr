@@ -85,7 +85,7 @@ const Index = () => {
     <>
       <PageMeta
         title="파페치 할인쿠폰 및 할인코드"
-        description="2026년 8월 최신 파페치(Farfetch) 할인쿠폰 및 할인코드 총정리. 프로모션 코드, 시즌 세일, 최대 할인 정보를 한 곳에서 확인하세요."
+        description="2026년 9월 최신 파페치(Farfetch) 할인쿠폰 및 할인코드 총정리. 프로모션 코드, 시즌 세일, 최대 할인 정보를 한 곳에서 확인하세요."
         canonical="https://lvfft.agd-offer.co.kr/"
       />
       <SchemaJsonLd schema={[websiteSchema, faqSchema]} />
@@ -98,7 +98,7 @@ const Index = () => {
         </div>
         <div className="relative page-container py-16 md:py-24">
           <div className="max-w-2xl">
-            <p className="text-primary text-sm font-semibold tracking-wider mb-3">2026년 8월 최신 업데이트</p>
+            <p className="text-primary text-sm font-semibold tracking-wider mb-3">2026년 9월 최신 업데이트</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               <span className="gold-text">파페치 할인쿠폰</span>
               <br />
@@ -124,7 +124,7 @@ const Index = () => {
       <section className="page-container">
         <h2 className="section-title gold-text text-center">🎟️ 현재 사용 가능한 할인코드</h2>
         <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
-          2026년 8월 기준, 파페치에서 사용할 수 있는 모든 할인코드를 한눈에 확인하고 바로 적용하세요.
+          2026년 9월 기준, 파페치에서 사용할 수 있는 모든 할인코드를 한눈에 확인하고 바로 적용하세요.
         </p>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
           {coupons.map((c) => (

@@ -26,7 +26,7 @@ const sales = [
     active: false,
   },
   {
-    period: "8월 (현재)",
+    period: "9월 (현재)",
     name: "여름 시즌오프 세일",
     discount: "최대 70%",
     img: saleSummer,
@@ -71,7 +71,7 @@ export default function SeasonalSales() {
     description: "파페치(Farfetch) 2026년 연간 시즌 세일 스케줄, 할인율, 최적 쇼핑 전략 완벽 가이드",
     author: { "@type": "Organization", name: "파페치 할인쿠폰" },
     datePublished: "2026-03-01",
-    dateModified: "2026-03-08",
+    dateModified: "2026-09-01",
     inLanguage: "ko",
   };
 

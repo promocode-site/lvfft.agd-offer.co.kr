@@ -79,7 +79,7 @@ export default function Layout() {
             <div>
               <h3 className="font-bold text-lg gold-text mb-3">파페치 할인쿠폰</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                파페치(Farfetch) 공식 할인코드, 프로모션, 시즌 세일 정보를 한 곳에서 확인하세요. 2026년 8월 기준 최신 정보를 제공합니다.
+                파페치(Farfetch) 공식 할인코드, 프로모션, 시즌 세일 정보를 한 곳에서 확인하세요. 2026년 9월 기준 최신 정보를 제공합니다.
               </p>
             </div>
             <div>

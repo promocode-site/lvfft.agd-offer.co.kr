@@ -1,8 +1,36 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    { "source": "/discount-codes", "destination": "/index.html" },
-    { "source": "/guide", "destination": "/index.html" },
-    { "source": "/seasonal-sales", "destination": "/index.html" }
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/discount-codes.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/discount-codes",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/seasonal-sales.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/seasonal-sales",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/guide.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/guide",
+      "destination": "/",
+      "permanent": true
+    }
   ]
 }

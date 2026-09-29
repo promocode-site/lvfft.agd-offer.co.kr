@@ -3,8 +3,15 @@
   "siteName": "파페치 할인쿠폰",
   "baseUrl": "https://lvfft.agd-offer.co.kr",
   "postUrlPattern": "/blog/{slug}/",
-  "updated": "2026-09-27",
+  "updated": "2026-09-29",
   "posts": [
+    {
+      "title": "파페치 할인쿠폰 시즌 세일 때 추가 할인 받는 법",
+      "slug": "farfetch-season-sale-extra-discount",
+      "date": "2026-09-29",
+      "description": "파페치 시즌 세일 기간에 할인코드와 결제 수단별 혜택을 함께 활용해 추가 할인을 받는 방법과 쿠폰 적용 시 확인할 점을 정리했습니다.",
+      "image": ""
+    },
     {
       "title": "파페치 할인쿠폰 사용 시 주의사항, 쿠폰 미리 등록하면 안 되는 이유",
       "slug": "farfetch-coupon-precautions-no-pre-registration",
